@@ -32,11 +32,6 @@
       "minorVersion": 5
     },
     {
-      "machineName": "EmbeddedJS",
-      "majorVersion": 1,
-      "minorVersion": 0
-    },
-    {
       "machineName": "H5P.JoubelUI",
       "majorVersion": 1,
       "minorVersion": 3
@@ -45,6 +40,16 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 4
+    },
+    {
+      "machineName": "H5P.Audio",
+      "majorVersion": 1,
+      "minorVersion": 4
+    },
+    {
+      "machineName": "H5P.Video",
+      "majorVersion": 1,
+      "minorVersion": 5
     }
   ],
   "editorDependencies": [
