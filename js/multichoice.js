@@ -1354,7 +1354,9 @@ H5P.MultiChoice = function (options, contentId, contentData) {
       if (alternatives.length) {
         alternatives.forEach(function (alternative) {
           const img = alternative.querySelector('img');
-          img.style.height = 'auto';
+          if (img) {
+            img.style.height = 'auto';
+          }
         });
       }
 
