@@ -846,7 +846,6 @@ H5P.MultiChoice = function (options, contentId, contentData) {
 
     if (fullScore) {
       self.hideButton('check-answer');
-      self.hideButton('try-again');
       self.hideButton('show-solution');
     }
 
